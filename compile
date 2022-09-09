@@ -1,0 +1,5 @@
+#! /bin/env tcsh
+gcc -Wall $1.c -o $1
+if ($? != 0) exit
+echo executable \"$1\" ok
+
